@@ -1,0 +1,25 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <!-- <p>First Name:<br>{{ firstname }}</p>
+  <p>Second Name:<br>{{ lastname }}</p>
+  <p>email:{{ email }}</p>
+  <p>phonenumber:{{ phonenumber }}</p>
+  <p>username:{{ username }}</p> -->
+  <div>
+  <ion-input type="text" [(ngModel)]="firstname"></ion-input>
+  <ion-input type="text" [(ngModel)]="lastname"></ion-input>
+  <ion-input type="email" [(ngModel)]="email"></ion-input>
+  <ion-input type="text" [(ngModel)]="phonenumber"></ion-input>
+  <ion-input type="text" [(ngModel)]="username"></ion-input>
+    <button ion-button full class="custom-button"(click)="Update()">Update</button>
+  	<button ion-button full class="custom-button"(click)="logout()">Log Out</button>
+  </div>
+</ion-content>

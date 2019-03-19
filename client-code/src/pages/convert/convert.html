@@ -1,0 +1,24 @@
+<ion-header>
+
+  <ion-navbar [color]="bgcolor">
+    <ion-title>Convert Speech to Text</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<h1>Welcome to Voice-Grasp</h1>
+	<div class="speechContainer">
+		<p>{{ speech }}</p>
+	</div>
+  <div class="text-center">
+    <br><button ion-button class="convert-btn" (click)="startListening()">Start</button>
+  	<br><button ion-button class="convert-btn" (click)="clearText()">Clear Text</button>
+  	<br><button ion-button class="convert-btn" (click)="saveConvertedText()">Save Text</button>
+  	<br><button ion-button class="convert-btn" (click)="openDictionary()">Search Dictionary</button>
+  	<br><button ion-button class="convert-btn" (click)="openSearch()">Search Saved Text</button>
+  </div>
+
+
+</ion-content>

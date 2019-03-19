@@ -1,0 +1,24 @@
+page-dictionary {
+	.hidden {
+		display: none;
+	}
+	.custom-bg {
+		padding: 10px;
+    // min-height: 100px;
+		background: rgba(0, 0, 0, 0.8);
+	}
+
+	.custom-button {
+		// padding: 5px 10px;
+		text-transform: capitalize !important;
+    width: 160px;
+    border-radius: 50px;
+    background-color: #003366;
+		margin-bottom: 20px;
+	}
+	.resultsContainer {
+		padding: 10px !important;
+    min-height: 100px !important;
+		background: rgba(0, 0, 0, 0.8) !important;
+	}
+}
